@@ -1,0 +1,191 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropDown {
+  background: white;
+  color: #142e159e;
+  border: none;
+}
+
+.dropDown:hover {
+  background: white;
+  color: #142e159e;
+  border: none;
+}
+
+.todoInput {
+  width: 100%;
+  height: 5rem;
+  border: none;
+  background: linear-gradient(#d0ffd21a, #3579371a);
+  color: #142e159e;
+  padding-left: 1rem;
+}
+
+.todoInput::placeholder {
+  padding-left: 1rem;
+}
+
+.todoInput.active::placeholder {
+  padding-left: 1rem;
+  color: white;
+}
+
+.todoInput.active {
+  background: #2f3630;
+  color: white;
+}
+
+.todoInput:focus {
+  outline: 0;
+}
+
+.iconStyle {
+  display: flex;
+  justify-content: space-between;
+  background: #3579371a;
+  align-items: center;
+}
+
+.iconStyle.active {
+  background: #2f3630;
+}
+
+.submitBtn {
+  background: #35793729;
+  border: none;
+  padding: 8px 16px 8px 16px;
+  font-size: 15px;
+  color: #357937;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.submitBtn.active {
+  color: white;
+}
+
+.view.active {
+  display: inline-block;
+  justify-content: space-between;
+  border-bottom: 1px solid #496e4b33;
+  padding: 16px 32px 16px 0px;
+  border: 1px solid #496e4b33;
+  width: 20%;
+  height: 6rem;
+}
+
+.view2.active {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 1rem;
+}
+
+.view {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #496e4b33;
+  padding: 16px 32px 16px 0px;
+  margin: 0.6rem;
+  transition: all 1s;
+}
+
+.view2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  transition: all 1s;
+}
+
+.iconphone {
+  margin: 0 1rem 0rem 0.4rem;
+  font-size: 18px;
+}
+
+.date {
+  color: transparent;
+  border: none;
+  width: 1.6rem;
+  margin: 0 1rem 0rem 0;
+  font-size: 18px;
+}
+
+.hover {
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.phone {
+  display: none;
+}
+
+.date {
+  color: transparent;
+  border: none;
+  width: 1.6rem;
+  margin: 0 1rem 0rem 0;
+  font-size: 18px;
+}
+
+.date2 {
+  color: transparent;
+  border: none;
+  width: 1.6rem;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.date2.active::-webkit-calendar-picker-indicator {
+  filter: invert(1) brightness(100%) sepia(100%) saturate(10000%)
+    hue-rotate(180deg);
+}
+
+.back.active {
+  background-color: #242424;
+  color: white;
+}
+
+.back {
+  background-color: white;
+  color: black;
+}
+
+.dropDown.active {
+  color: #97f69bb5;
+  background-color: #242424;
+  border: none;
+}
+
+.windowicon.active {
+  color: white;
+}
+
+.text {
+  color: black;
+  display: inline-block;
+}
+
+.text.active {
+  color: white;
+}
+
+.iconstar {
+  color: black;
+  cursor: pointer;
+}
+
+.iconstar.active {
+  color: white;
+}
+
+.checkbox {
+  background: black;
+}
+
+.light {
+  color: white;
+}

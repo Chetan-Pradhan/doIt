@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: outfit;
+}
+
+@media only screen and (max-width: 768px) {
+  .dropDown {
+    display: none;
+  }
+  .inputtodo {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .windowicon {
+    display: none;
+  }
+  button {
+    display: none;
+  }
+  .phone {
+    display: block;
+  }
+  .date2 {
+    display: none;
+  }
+}

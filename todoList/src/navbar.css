@@ -1,0 +1,30 @@
+.icons {
+  margin: 0.6rem;
+  cursor: pointer;
+}
+
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+  background-image: unset !important;
+}
+
+.back.active {
+  background-color: #242424;
+  color: white;
+}
+
+.back {
+  background-color: white;
+  color: black;
+}
+
+.switch.active {
+  background-color: #242424;
+  color: #3f9142;
+  display: inline-block;
+}
+.switch {
+  background-color: white;
+  color: black;
+  display: inline-block;
+}

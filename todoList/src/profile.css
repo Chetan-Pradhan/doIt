@@ -1,0 +1,167 @@
+.slide.active {
+  position: relative;
+  left: 0%;
+}
+
+.slide {
+  width: 240px;
+  position: relative;
+  left: -100%;
+  background: linear-gradient(#d0ffd21a, #3579371a);
+  transition: all 1s;
+}
+
+.profileLogo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileLogo.active {
+  border: 1px solid white;
+  color: white;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.profileOption {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px 0px 0.4rem 0px;
+  padding: 0px 0px 0px 0.6rem;
+  border-radius: 8px;
+}
+
+.profileOption.active {
+  color: white;
+}
+
+.profileOption:hover {
+  background-color: #dbe8dd;
+}
+
+.profileOption.active:hover {
+  background-color: #35793729;
+  color: #98e19b;
+}
+
+.add {
+  margin-top: 0.5rem;
+  height: 60px;
+  display: flex;
+  background: white;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  width: 90%;
+}
+
+.add.active {
+  background-color: #232323;
+  color: white;
+}
+
+.add.active:hover {
+  background-color: #35793729;
+  color: #98e19b;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: #dbe8dd;
+}
+
+.loader {
+  border: 20px solid #3f9142;
+  border-bottom: 20px solid #142e15;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.list {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  font-size: 8px;
+  margin-top: 0.6rem;
+}
+
+.pending {
+  margin-right: 2rem;
+}
+
+.pending::marker {
+  color: #3f9142;
+}
+
+.done::marker {
+  color: #142e15;
+}
+
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cont1.active {
+  background: #2c2c2c;
+}
+
+.profileText {
+  font-size: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.profileText.active {
+  color: white;
+}
+
+.box1 {
+  width: 90%;
+  padding: 0.6rem 0px 0.6rem 0px;
+  background-color: white;
+}
+
+.box1.active {
+  background-color: #232323;
+}
+
+.listItem {
+  list-style-type: none;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.listItem.active {
+  background-color: #232323;
+}
+
+.taskCont {
+  font-size: 13.3px;
+  background: white;
+  width: 90%;
+  margin-top: 0.5rem;
+}
+
+.taskCont.active {
+  background: #232323;
+  color: white;
+}
