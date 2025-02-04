@@ -15,7 +15,7 @@ Dolt is a sleek and responsive to-do list application that helps you organize yo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/dolt.git
+   git clone https://github.com/yourusername/dolt.git](https://github.com/Chetan-Pradhan/doIt
    ```
 2. Navigate into the project directory:
    ```bash
